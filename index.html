@@ -39,10 +39,10 @@
                             <div class="basket-shoping left">
                                 <i class="fas fa-shopping-cart"></i>
                             </div>
-                            <div class="sub_user left">
+                            <button type="button" class="sub_user left" data-toggle="modal" data-target="#modal">
                                 <i class="fas fa-user margin-left-15"></i>
                                 <span>ورود به حساب کاربری</span>
-                            </div>
+                            </button>
                             <div class="clear-fix"></div>
                         </div>
                     </div>
@@ -104,6 +104,32 @@
             </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal">
+        <div class="modal-header">
+            <div class="title">
+                <h2>ثبت نام</h2>
+            </div>
+            <div class="divider"></div>
+        </div>
+        <div class="modal-content center">
+            <form class="form active">
+                <p>لطفا شماره همراه خود را وارد نمایید</p>
+                <div class="md-form">
+                    <input mdbInput type="text" id="form1" class="form-control">
+                    <label for="form1" class="">Example label</label>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer center">
+            <div class="divider"></div>
+            <p>حساب کاربری ندارید؟
+                <a href="">ثبت نام کنید</a>
+            </p>
+        </div>
+    </div>
+
 </header>
 
 <main>
